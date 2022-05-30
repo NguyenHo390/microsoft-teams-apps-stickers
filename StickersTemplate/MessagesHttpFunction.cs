@@ -152,11 +152,11 @@ namespace StickersTemplate
                     var queryValue = JObject.FromObject(activity.Value).ToObject<ComposeExtensionValue>();
                     query = queryValue.GetParameterValue();
 
-                    if (queryValue?.QueryOptions != null)
-                    {
-                        skip = queryValue.QueryOptions.Skip;
-                        count = queryValue.QueryOptions.Count;
-                    }
+                    //if (queryValue?.QueryOptions != null)
+                    //{
+                      //  skip = queryValue.QueryOptions.Skip;
+                        //count = queryValue.QueryOptions.Count;
+                    //}
                 }
 
                 // Find matching stickers
